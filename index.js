@@ -16,7 +16,7 @@ function safeUrl(u, base) {
 }
 
 export default async function handler(req, res) {
-  const url = req.query.url || "https://betteranime.net/"; // ou seu caminho específico
+  const url = req.query.url || "https://animefire.plus/"; // ou seu caminho específico
   const cacheKey = `scrape:${url}`;
 
   const cached = CACHE.get(cacheKey);
