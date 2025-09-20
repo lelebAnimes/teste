@@ -8,6 +8,6 @@
   },
   "scripts": {
     "dev": "vercel dev",
-    "start": "node api/movies.js"
+    "start": "node index.js"
   }
 }
