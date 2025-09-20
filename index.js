@@ -2,7 +2,7 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
 
-const DEFAULT_URL = "http://maxplusv3.maxplusoapp.site/";
+const DEFAULT_URL = "https://betteranime.net/";
 
 const HEADERS = {
   "User-Agent":
